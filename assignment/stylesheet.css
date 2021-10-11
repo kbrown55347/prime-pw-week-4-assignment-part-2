@@ -1,6 +1,12 @@
 header {
-  border: 1px solid #5A5353;
+  border: 5px solid #776274;
+  border-radius: 5px;
   height: 125px;
   text-align: center;
   color: white;
+}
+
+img {
+  width: 400px;
+  height: auto;
 }
