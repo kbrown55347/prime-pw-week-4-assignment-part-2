@@ -1,12 +1,39 @@
 header {
-  border: 5px solid #776274;
+  padding: 5px;
   border-radius: 5px;
-  height: 125px;
   text-align: center;
-  color: white;
+  color: #5A5353;
+  margin-bottom: 10px;
+}
+
+h2, h3 {
+  background-image: url("https://cdn.pixabay.com/photo/2017/05/30/15/26/paper-2357298_1280.jpg");
+  color: #5A5353;
+  font-weight: bold;
+  padding: 8px;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-align: right;
+}
+
+.info {
+  width: 500px;
+  height: 400px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
   width: 400px;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
