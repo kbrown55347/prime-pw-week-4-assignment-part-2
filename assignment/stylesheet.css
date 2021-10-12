@@ -1,8 +1,8 @@
 header {
   padding: 5px;
-  border-radius: 5px;
   text-align: center;
   color: #5A5353;
+  font-weight: bold;
 }
 
 h2, h3 {
@@ -10,6 +10,7 @@ h2, h3 {
   color: #5A5353;
   font-weight: bold;
   padding: 8px;
+  border-radius: 5px;
 }
 
 h2 {
@@ -35,4 +36,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Added image hover because it was fun */
+img:hover {
+opacity: 0.5;
 }
